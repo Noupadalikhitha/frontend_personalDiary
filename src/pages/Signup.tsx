@@ -2,7 +2,6 @@ import { useState } from 'react'
 import { useNavigate, Link } from 'react-router-dom'
 import { toast } from 'react-toastify'
 import { apiRequest } from '../utils/api'
-import { config } from '../config'
 
 interface SignupProps {
   setIsAuthenticated: (value: boolean) => void
